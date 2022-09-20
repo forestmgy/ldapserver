@@ -148,9 +148,9 @@ func (h *RouteMux) ServeLDAP(w ResponseWriter, r *Message) {
 		}
 
 		if route.label != "" {
-			Logger.Printf("")
-			Logger.Printf(" ROUTE MATCH ; %s", route.label)
-			Logger.Printf("")
+			Logger.Printf("******************************")
+			Logger.Printf("**** ROUTE MATCH ; %s", route.label)
+			Logger.Printf("******************************")
 			// Logger.Printf(" ROUTE MATCH ; %s", runtime.FuncForPC(reflect.ValueOf(route.handler).Pointer()).Name())
 		}
 
