@@ -23,6 +23,8 @@ type client struct {
 	writeDone       chan bool
 	rawData         []byte
 	IsAuthenticated bool
+	IsGlobalAdmin 	bool
+	IsOrgAdmin 	bool
 }
 
 func (c *client) GetConn() net.Conn {
