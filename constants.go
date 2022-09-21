@@ -67,6 +67,7 @@ const (
 	LDAPResultObjectClassModsProhibited    = 69
 	LDAPResultAffectsMultipleDSAs          = 71
 	LDAPResultOther                        = 80
+	LDAPResultInvalidAdminNameFormat       = 81	
 
 	ErrorNetwork         = 200
 	ErrorFilterCompile   = 201
