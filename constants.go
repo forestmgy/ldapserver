@@ -66,8 +66,7 @@ const (
 	LDAPResultEntryAlreadyExists           = 68
 	LDAPResultObjectClassModsProhibited    = 69
 	LDAPResultAffectsMultipleDSAs          = 71
-	LDAPResultOther                        = 80
-	LDAPResultInvalidAdminNameFormat       = 81	
+	LDAPResultOther                        = 80	
 
 	ErrorNetwork         = 200
 	ErrorFilterCompile   = 201
