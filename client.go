@@ -25,6 +25,8 @@ type client struct {
 	IsAuthenticated bool
 	IsGlobalAdmin 	bool
 	IsOrgAdmin 	bool
+	OrgName		string
+	UserName	string
 }
 
 func (c *client) GetConn() net.Conn {
